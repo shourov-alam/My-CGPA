@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">My CGPA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string-array
+
+        name="grades">
+
+        <item>Select GPA</item>
+        <item>4.00</item>
+        <item>3.80</item>
+        <item>3.75</item>
+        <item>3.70</item>
+        <item>3.67</item>
+        <item>3.50</item>
+        <item>3.40</item>
+        <item>3.33</item>
+        <item>3.30</item>
+        <item>3.25</item>
+        <item>3.20</item>
+        <item>3.10</item>
+        <item>3.00</item>
+        <item>2.90</item>
+        <item>2.80</item>
+        <item>2.75</item>
+        <item>2.70</item>
+        <item>2.67</item>
+        <item>2.50</item>
+        <item>2.33</item>
+        <item>2.30</item>
+        <item>2.25</item>
+        <item>2.20</item>
+        <item>2.00</item>
+        <item>1.99</item>
+        <item>1.75</item>
+        <item>1.70</item>
+        <item>1.67</item>
+        <item>1.50</item>
+        <item>1.33</item>
+        <item>1.30</item>
+        <item>1.25</item>
+        <item>1.00</item>
+        <item>0.00</item>
+
+    </string-array>
+
+    <string-array
+
+        name="count">
+
+        <item>Count</item>
+
+
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15(max)</item>
+
+    </string-array>
+
+    <string-array
+
+        name="count1">
+
+        <item>Count</item>
+
+
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15(max)</item>
+
+    </string-array>
+
+
+    <string-array
+
+        name="count2">
+
+        <item>Next Semester</item>
+
+        <item>2 Semester</item>
+        <item>3 Semester</item>
+        <item>4 Semester</item>
+        <item>5 Semester</item>
+        <item>6 Semester</item>
+        <item>7 Semester</item>
+        <item>8 Semester</item>
+        <item>9 Semester</item>
+        <item>10 Semester</item>
+        <item>11 Semester(max)</item>
+
+
+    </string-array>
+
+    <string-array
+
+        name="count3">
+
+        <item>1 Semester</item>
+
+
+        <item>2 Semester</item>
+        <item>3 Semester</item>
+        <item>4 Semester</item>
+        <item>5 Semester</item>
+        <item>6 Semester</item>
+        <item>7 Semester</item>
+        <item>8 Semester</item>
+        <item>9 Semester</item>
+        <item>10 Semester</item>
+        <item>11 Semester(max)</item>
+
+
+    </string-array>
+
+    <string-array
+
+        name="count4">
+
+        <item>1st semester</item>
+        <item>2nd semester</item>
+        <item>3rd semester</item>
+        <item>4th semester</item>
+        <item>5th semester</item>
+        <item>6th semester</item>
+        <item>7th semester</item>
+        <item>8th semester</item>
+        <item>9th semester</item>
+        <item>10th semester</item>
+        <item>11th semester</item>
+        <item>12th semester</item>
+
+
+    </string-array>
+
+    <string-array
+
+        name="count5">
+
+        <item>On Time</item>
+        <item>before 1 day </item>
+        <item>before 2 day</item>
+        <item>before 3 day</item>
+        <item>before 4 day</item>
+        <item>before 5 day</item>
+        <item>before 7 day</item>
+        <item>before 10 day</item>
+        <item>before two weeks</item>
+
+    </string-array>
+
+
+</resources>

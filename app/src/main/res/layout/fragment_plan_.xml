@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+
+    tools:context=".Fragment.Plan_Fragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+
+        >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+
+       >
+
+       <TextView
+           android:id="@+id/tvUsername"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+
+
+           android:text="Enter Your Current Grade:"
+
+        android:layout_gravity="center"
+
+           android:textColor="#009688"
+           android:layout_marginTop="20dp"
+
+           android:textSize="16sp"
+           android:textStyle="bold" />
+
+       <EditText
+           android:id="@+id/current"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+      android:textSize="18sp"
+
+           android:textStyle="bold"
+           android:textColor="#009688"
+           android:layout_marginTop="10dp"
+
+
+           android:background="@drawable/background_edittext"
+           android:hint="Grade Current"
+           android:textAlignment="center"
+
+
+
+
+
+           android:inputType="numberDecimal"
+           android:padding="10dp" />
+
+       <TextView
+           android:id="@+id/tvPassword"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+
+           android:text="Enter Grade You Want to Maintain:"
+           android:textColor="#009688"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:textSize="16sp"
+           android:textStyle="bold" />
+
+       <EditText
+           android:id="@+id/maintain"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:textSize="18sp"
+           android:layout_marginTop="10dp"
+
+
+           android:textStyle="bold"
+           android:textColor="#009688"
+
+
+           android:background="@drawable/background_edittext"
+           android:hint="Grade Maintain"
+           android:textAlignment="center"
+
+
+
+
+
+           android:inputType="numberDecimal"
+           android:padding="10dp" />
+
+       <TextView
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="10dp"
+
+
+
+           android:text="Select, how many semester you have completed:"
+           android:textColor="#000000"
+
+           android:textSize="16sp"
+           android:textStyle="normal" />
+
+       <Spinner
+
+           android:id="@+id/add_count3"
+           android:hint="enter"
+           android:layout_width="wrap_content"
+           android:layout_height="30dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="2dp"
+           android:layout_marginTop="10dp"
+           android:textAlignment="center"
+           android:entries="@array/count3"
+           />
+
+
+       <TextView
+           android:id="@+id/tvPassword1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="10dp"
+
+           android:text="Select, within next how many semester you want to obtain the new grade:"
+           android:textColor="#000000"
+
+           android:textSize="16sp"
+           android:textStyle="normal" />
+
+       <Spinner
+
+           android:id="@+id/add_count4"
+           android:hint="enter"
+           android:layout_width="wrap_content"
+           android:layout_height="30dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="2dp"
+           android:layout_marginTop="10dp"
+           android:textAlignment="center"
+           android:entries="@array/count2"
+        />
+
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="52dp"
+           android:text="Calculate"
+           android:textStyle="bold"
+           android:textSize="20sp"
+           android:textAllCaps="false"
+           android:layout_marginTop="14dp"
+           android:background="#009688"
+           android:id="@+id/btn"
+           android:layout_marginLeft="6dp"
+           android:layout_marginRight="6dp"
+           />
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="30dp"
+           />
+
+   </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

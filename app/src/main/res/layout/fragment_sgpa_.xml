@@ -1,0 +1,1115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shourov.mycgpa.Fragment.Sgpa_Fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+
+                     <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                android:weightSum="3"
+
+
+                android:orientation="horizontal"
+
+                >
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Course"
+
+                    android:textAlignment="center"
+                    android:textColor="#009688"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Credit"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:textColor="#009688"
+                    android:background="@drawable/background"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:padding="5dp"
+
+                    android:layout_marginRight="5dp"
+                    android:text="Grade"
+                    android:textAlignment="center"
+                    android:textColor="#009688"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+
+            <ScrollView
+                android:id="@+id/scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="359dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/sRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:id="@+id/s_course_TV1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 1"
+
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:padding="5dp"
+
+
+
+                            android:textSize="18sp" />
+
+                        <AutoCompleteTextView
+                            android:id="@+id/auto_1"
+                            android:inputType="numberDecimal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+
+
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:id="@+id/s_course_TV2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 2"
+
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+
+
+
+                            android:textSize="18sp" />
+
+                        <AutoCompleteTextView
+                            android:id="@+id/auto_2"
+                            android:inputType="numberDecimal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 3"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 4"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+
+                            android:textSize="18sp" />
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 5"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 6"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <EditText
+                            android:id="@+id/sEt6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 7"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <EditText
+                            android:id="@+id/sEt7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 8"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <EditText
+                            android:id="@+id/sEt8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 9"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <EditText
+                            android:id="@+id/sEt9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 10"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 11"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <EditText
+                            android:id="@+id/sEt11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 12"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:textColor="#000"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:text="Course 13"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:textColor="#000"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:text="Course 14"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/sRow15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/s_course_TV15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:padding="5dp"
+                            android:textColor="#000"
+                            android:text="Course 15"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/sEt15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:hint="Credit"
+                            android:inputType="numberDecimal"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"/>
+                        <AutoCompleteTextView
+                            android:inputType="numberDecimal"
+                            android:id="@+id/auto_15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:hint="Grade"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:background="@drawable/background_edittext"
+
+
+                            android:textAlignment="center">
+
+
+                        </AutoCompleteTextView>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+
+                    <Spinner
+
+                        android:id="@+id/add_count"
+
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+
+                        android:background="#009688"
+                        android:entries="@array/count"
+                        style="@style/SpinnerTextStyle1"
+                        android:textAlignment="center"
+                        />
+
+                    <LinearLayout
+
+                        android:id="@+id/calculate"
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_weight="1"
+   android:gravity="center"
+
+    android:background="#009688"
+
+    >
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calculate"
+
+
+
+                            android:textAlignment="center"
+                            android:textColor="#fefefe"
+                            android:textSize="18.5sp"
+
+                            android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/reset"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#009688"
+
+                        >
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reset"
+
+
+                            android:textAlignment="center"
+                            android:textColor="#fefefe"
+
+                            android:textStyle="bold"
+
+                            android:textSize="18.5sp"/>
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    />
+                </LinearLayout>
+
+
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

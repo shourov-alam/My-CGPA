@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938766624907",
+    "project_id": "my-cgpa-cb591",
+    "storage_bucket": "my-cgpa-cb591.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938766624907:android:4877a10227855be4c58c8e",
+        "android_client_info": {
+          "package_name": "com.shourov.mycgpa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938766624907-db5qrb0ptprjmlc4t5vpu5jtp7ls46ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS63dt7uWgeHFY7AOaNwUE2hXoNAmeyjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938766624907-db5qrb0ptprjmlc4t5vpu5jtp7ls46ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

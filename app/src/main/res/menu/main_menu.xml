@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    >
+
+    <item
+        android:id="@+id/schedule_record"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        android:title="Schedule"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/course_record"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="Course Record"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/current_result"
+
+
+        android:orderInCategory="1"
+        android:title="Result"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/pro"
+
+
+        android:orderInCategory="2"
+        android:title="Install Pro Version"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/rate_app"
+
+
+        android:orderInCategory="3"
+        android:title="Rate This App"
+        app:showAsAction="never"
+       />
+
+
+    <item
+        android:id="@+id/share_app"
+        android:orderInCategory="4"
+        android:title="Share This App"
+        app:showAsAction="never"
+      />
+
+
+
+    <item
+        android:id="@+id/more_app"
+        android:orderInCategory="5"
+        android:title="More Apps"
+        app:showAsAction="never"
+       />
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="3dp"
+    app:cardUseCompatPadding="true"
+   >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/imageView1"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1"
+        android:background="@drawable/gradient"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:padding="3dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="title"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/des"
+        android:layout_below="@+id/title1"
+        android:text="des"
+        android:textSize="20sp"
+
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textStyle="normal"
+        android:padding="3dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/remaining"
+        android:text="date"
+        android:layout_below="@+id/des"
+        android:padding="3dp"
+        android:textSize="20sp"
+
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:text="date"
+        android:layout_below="@+id/remaining"
+        android:textSize="20sp"
+
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textStyle="normal"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/before"
+        android:text="date"
+        android:layout_below="@+id/date"
+        android:textSize="20sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+
+        android:textStyle="normal"
+        android:padding="3dp"
+        />
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

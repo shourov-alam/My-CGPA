@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!--  <TextView
+              android:id="@+id/title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:minHeight="?actionBarSize"
+
+              android:padding="15dp"
+
+              android:text="@string/app_name"
+              android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" /> -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient"
+
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@+id/app"
+
+
+    >
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/list_view"
+        android:padding="3dp"
+        android:divider="#FFFFFF"
+
+        android:listSelector="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="280dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/empty_view_text"
+            android:textStyle="normal"
+            android:text="No Records exists. Click on the button below to record Schedule."/>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_view"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15sp"
+        android:layout_marginRight="10sp"
+        android:src="@drawable/ic_add_black_24dp"
+        app:backgroundTint="#00BCD4"
+        app:fabSize="normal"/>
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>
