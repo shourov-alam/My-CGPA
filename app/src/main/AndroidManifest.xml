@@ -56,7 +56,7 @@
             android:resource="@array/preloaded_fonts" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1366242071094783~6420805052" />
+            android:value="ca-app-pub-3940256099942544~3347511713" />
     </application>
 
 </manifest>
